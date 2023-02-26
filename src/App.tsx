@@ -38,6 +38,8 @@ import {
 function App() {
   const [on, setOn] = useState(false);
 
+  console.log("add more commit");
+
   // from easings.net
   const EASE_IN_SINE: BezierDefinition = [0.12, 0, 0.39, 0];
   const EASE_OUT_SINE: BezierDefinition = [0.61, 1, 0.88, 1];
